@@ -1,0 +1,7 @@
+---
+# tasks file for java
+- name: Install Java
+  apt:
+   name: default-jdk
+   state: latest
+   update_cache: yes
